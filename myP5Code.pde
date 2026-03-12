@@ -12,6 +12,15 @@ setup = function() {
     text("⸙", 420-i, 390);
   }  
 
+var anii = ["sharks", "cats", "marine life"];
+
+  var animal = 0;
+  while(animal < anii.length){
+    text(anii[animal], 10, 30+animal*30);
+    animal++;
+
+  }
+
   
 };
 
